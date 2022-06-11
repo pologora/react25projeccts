@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.birthdays-list {
+    border-radius: 10px;
+    background-color: #fff;
+    min-width: 400px;
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+.birthday-item {
+    margin: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.App {
+    background-color: pink;
+    min-height: 100vh;
+    display: flex;
+}
+
+.text-container {
+    text-align: left;
+}
+
+.age {
+    color: gray;
+    margin-top: 10px;
+}
+
