@@ -7,7 +7,7 @@ const ToursList = ({ tours, deleteTour }) => {
         <h2>Ours tours</h2>
         <div className='underline'></div>
       </div>
-      <div>{tours && tours.map((tour) => <Tour {...tour} key={tour.id} deleteTour={deleteTour} />)}</div>
+      <div>{tours?.map((tour) => <Tour {...tour} key={tour.id} deleteTour={deleteTour} />)}</div>
     </section>
   )
 }

@@ -8,7 +8,7 @@ const url = 'https://course-api.com/react-tours-project'
 
 function App() {
   const { data, loading, refetch } = useFetch(url)
-  const [tours, setTours] = useState([])
+  const [tours, setTours] = useState(null)
 
   const deleteTour = (id) => {
     setTours((prev) => {
@@ -28,7 +28,7 @@ function App() {
     )
   }
 
-  if (tours.length === 0) {
+  if (!tours?.length) {
     return (
       <main>
         <div className='title'>
@@ -39,6 +39,7 @@ function App() {
         </div>
       </main>
     )
+    
   }
   return (
     <main>
