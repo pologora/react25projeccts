@@ -1,9 +1,9 @@
-# Basic React App
+# First of 25 React projects
 
 Data hardcoded
 
-## Used hookes:
+## Used hooks:
 - useState
 
-## Used Tech Stack:
+## Used tech:
 - React
