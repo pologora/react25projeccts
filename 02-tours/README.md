@@ -5,6 +5,6 @@
 - useEffect
 - useFetch(custom hook)
 
-## Used Tech Stack:
+## Used tech:
 - React
 - Axios(fetch data)
