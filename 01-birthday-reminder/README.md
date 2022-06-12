@@ -5,5 +5,5 @@ Data hardcoded
 ## Used hookes:
 - useState
 
-## Used tech:
+## Used Tech Stack:
 - React
