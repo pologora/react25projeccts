@@ -6,7 +6,10 @@ function App() {
   const listElements = questions.map((question) => <Question question={question} key={question.id} />)
   return (
     <main>
-      <div className='container'>{listElements}</div>
+      <div className='container'>
+        <h3>questions and answers about login</h3>
+        <section className='info'>{listElements}</section>
+      </div>
     </main>
   )
 }
