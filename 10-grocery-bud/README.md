@@ -1,12 +1,14 @@
 # Tenth of 25 React projects
 
-- Copy to clipboard
+- LocalStorage
 
 ## Used hooks:
 
 - useState
 - useEffect
+- useRef
 
 ## Used tech:
 
 - React
+- react-icons
